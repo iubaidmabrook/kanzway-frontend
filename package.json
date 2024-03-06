@@ -4,12 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "dev:turbo": "next dev --turbo",
+    "dev:turbo": "next dev",
     "build": "next build",
-    "start": "next start -p 3400",
+    "start": "next start",
     "lint": "next lint",
-    "lint:fix": "next lint --fix",
-    "prepare": "husky install && chmod ug+x .husky/commit-msg && chmod ug+x .husky/pre-commit"
+    "lint:fix": "next lint --fix"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
